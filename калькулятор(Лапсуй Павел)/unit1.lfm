@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 433
+  Left = 734
   Height = 536
-  Top = 180
+  Top = 209
   Width = 758
   Caption = 'Form1'
   ClientHeight = 536
@@ -23,14 +23,16 @@ object Form1: TForm1
     Top = 64
     Width = 175
     Caption = 'Сумма'
+    OnClick = Button1Click
     TabOrder = 0
   end
   object Button2: TButton
     Left = 457
     Height = 51
-    Top = 137
+    Top = 136
     Width = 175
     Caption = 'Разность'
+    OnClick = Button2Click
     TabOrder = 1
   end
   object Button3: TButton
@@ -39,6 +41,7 @@ object Form1: TForm1
     Top = 213
     Width = 175
     Caption = 'Произведение'
+    OnClick = Button3Click
     TabOrder = 2
   end
   object Button4: TButton
@@ -47,6 +50,7 @@ object Form1: TForm1
     Top = 281
     Width = 175
     Caption = 'частное'
+    OnClick = Button4Click
     TabOrder = 3
   end
   object Button5: TButton
@@ -55,6 +59,7 @@ object Form1: TForm1
     Top = 351
     Width = 176
     Caption = 'процент числа'
+    OnClick = Button5Click
     TabOrder = 4
   end
   object Edit1: TEdit
@@ -101,5 +106,21 @@ object Form1: TForm1
     Top = 232
     Width = 172
     TabOrder = 7
+  end
+  object Label5: TLabel
+    Left = 36
+    Height = 31
+    Top = 293
+    Width = 108
+    Caption = 'Об авторе'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 62
+    Top = 344
+    Width = 145
+    Caption = 'Лапсуй Павел'#13#10'ИР 19-30'
+    ParentColor = False
   end
 end
